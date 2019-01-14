@@ -39,6 +39,25 @@ In the presentation there are two interactive parts - which require PowerPoint V
    - It might be worth mentioning on the card that it’s worth practicing with scanning the stickers and working out where your phone’s NFC reader is.
 
 
+### Programming the Stickers
+Each sticker simply opens a URL. I am using my server URL in this example - you should replace it with your own if you are not using my server in the presentation (see 'How to self-host the PHP code')
+
+The parameters are:
+- `action`: `vote` - The action is always vote when programming by the stickers. (Other actions are used by the server)
+- `team`: `<number>` - The team number (1 or 2)
+- `color`: `<string: red/yellow/green/blue>` - The name of the color (`red`, `yellow`, `blue`, `green`)
+
+#### Team 1
+- **Red:** `https://api.samjakob.com/rfid-presentation/kahoot.php?action=vote&team=1&color=red`
+- **Yellow:** `https://api.samjakob.com/rfid-presentation/kahoot.php?action=vote&team=1&color=yellow`
+- **Blue:** `https://api.samjakob.com/rfid-presentation/kahoot.php?action=vote&team=1&color=blue`
+- **Green:** `https://api.samjakob.com/rfid-presentation/kahoot.php?action=vote&team=1&color=green`
+
+#### Team 2
+- **Red:** `https://api.samjakob.com/rfid-presentation/kahoot.php?action=vote&team=2&color=red`
+- **Yellow:** `https://api.samjakob.com/rfid-presentation/kahoot.php?action=vote&team=2&color=yellow`
+- **Blue:** `https://api.samjakob.com/rfid-presentation/kahoot.php?action=vote&team=2&color=blue`
+- **Green:** `https://api.samjakob.com/rfid-presentation/kahoot.php?action=vote&team=2&color=green`
 
 ## How to self-host the PHP code
 
