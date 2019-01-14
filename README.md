@@ -1,7 +1,7 @@
 # RFID-Presentation
 Interactive Presentation on RFID.
 
-
+<br>
 
 ## How to show the presentation
 
@@ -14,15 +14,13 @@ In the presentation there are two interactive parts - which require PowerPoint V
 
 **In order for the interactive parts to work, you must click on the black ‘Initialize’ button on the first slide. If should then change to read ‘Initialized.’ If it does not change after you’ve clicked on it, the interactive parts will not work.**
 
-
+<br>
 
 ## Troubleshooting
 
 - The PowerPoint does not seem to work in read-only mode so you may have to save it to your documents to proceed.
 - After enabling Macros, you may have to close and re-open the PowerPoint for it to function correctly.
 - If you get an error saying “_ERROR: The timer was running. It has now been stopped._” you should close and re-open the PowerPoint.
-
-
 
 ## How to create your own answer card
 
@@ -59,6 +57,8 @@ The parameters are:
 - **Blue:** `https://api.samjakob.com/rfid-presentation/kahoot.php?action=vote&team=2&color=blue`
 - **Green:** `https://api.samjakob.com/rfid-presentation/kahoot.php?action=vote&team=2&color=green`
 
+<br>
+
 ## How to self-host the PHP code
 
 1. Upload the contents of `/rfid-presentation-php` to the root or a directory within your webserver. Remember which directory you have uploaded *the contents* to.
@@ -75,7 +75,7 @@ The parameters are:
 
    Example: `https://api.samjakob.com/rfid-presentation/`
 
-
+<br>
 
 ## How to change the questions
 
@@ -102,6 +102,6 @@ The parameters are:
 
    - `correct` should match one of the answer colors.
 
-3. Ensure the file is a JSON array (i.e. that you have `[ ` at the start of the file and `]` at the end of the file.)
+3. Ensure the file is a JSON array (i.e. that you have `[` at the start of the file and `]` at the end of the file.)
 
 4. Save your changes and start the PowerPoint.
