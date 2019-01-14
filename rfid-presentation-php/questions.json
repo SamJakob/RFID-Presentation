@@ -1,0 +1,72 @@
+[
+    {
+        "question": "Who first patented RFID?",
+        "answers": {
+            "red": "Mario Cardullo",
+            "yellow": "Bob Cardullo",
+            "blue": "Luigi Cardullo",
+            "green": "The country of Germany."
+        },
+        "correct": "red"
+    },
+    {
+        "question": "What does RFID stand for?",
+        "answers": {
+            "red": "Radical Fancy Ideas",
+            "yellow": "Re-writeable Frequency Identification",
+            "blue": "Radio Frequency Identification",
+            "green": "Readable Frequency Identification"
+        },
+        "correct": "blue"
+    },
+    {
+        "question": "Which one of these is a valid use of passive RFID?",
+        "answers": {
+            "red": "File Transfer",
+            "yellow": "Warehouse Stock Management",
+            "blue": "Communication",
+            "green": "Moterway Toll Booths"
+        },
+        "correct": "yellow"
+    },
+    {
+        "question": "What is the range of an active RFID tag?",
+        "answers": {
+            "red": "<= 50m",
+            "yellow": "<= 300m",
+            "blue": "<= 700m",
+            "green": "<= 1,200m"
+        },
+        "correct": "yellow"
+    },
+    {
+        "question": "How much storage does a typical passive tag have?",
+        "answers": {
+            "red": "3 bytes",
+            "yellow": "20 bytes",
+            "blue": "a few MegaBytes",
+            "green": "a few kilobytes"
+        },
+        "correct": "green"
+    },
+    {
+        "question": "Which of these are potential future uses of RFID?",
+        "answers": {
+            "red": "Internet Connection for IOT (Internet-Of-Things)",
+            "yellow": "Biometric Identification for Bank Staff",
+            "blue": "Monitoring health in the bloodstream",
+            "green": "Intelligent Cat Flaps"
+        },
+        "correct": "blue"
+    },
+    {
+        "question": "What is the range of a passive RFID tag?",
+        "answers": {
+            "red": "Up to 30cm",
+            "yellow": "Up to 1m",
+            "blue": "Up to 5m",
+            "green": "Up to 10m"
+        },
+        "correct": "yellow"
+    }
+]
