@@ -5,6 +5,8 @@ Interactive Presentation on RFID.
 
 ## How to show the presentation
 
+> Download the Presentation: [RFID for dummies.pptm](https://github.com/SamJakob/RFID-Presentation/raw/master/RFID%20for%20dummies.pptm)
+
 In the presentation there are two interactive parts - which require PowerPoint VBA Macros turned on:
 
 1. The first NFC tag demo - which will play the TechQuickie video which explains RFID on the third slide.
@@ -24,9 +26,9 @@ In the presentation there are two interactive parts - which require PowerPoint V
 
 ## How to create your own answer card
 
-![answercard - front](images/answercard - front.jpg)
+![Answer Card - Front](https://raw.githubusercontent.com/SamJakob/RFID-Presentation/master/images/answercard%20-%20front.jpg)
 
-![answercard - back](images/answercard - back.jpg)
+![Answer Card - Back](https://raw.githubusercontent.com/SamJakob/RFID-Presentation/master/images/answercard%20-%20back.jpg)
 
 1. Design your answer card. It should have the four colors: `red`, `blue`, `yellow` (can be orange) and `green`. Ideally, it should be divided into quadrants.
    - You should mark out the center of each section in your answer card - this is where you will place the NFC sticker.
